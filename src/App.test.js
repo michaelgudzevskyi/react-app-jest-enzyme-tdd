@@ -6,7 +6,7 @@ import App from './App';
 Enzyme.configure({ adapter: new EnzymeAdapter()})
 
 
-test('renders compoent', () => {
+test('renders component', () => {
   const wrapper = shallow(<App />)
   expect(wrapper).toBeTruthy()
 });

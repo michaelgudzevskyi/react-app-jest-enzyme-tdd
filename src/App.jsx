@@ -1,7 +1,8 @@
+import Congrats from "./Congrats"
 function App() {
   return (
     <div className="App">
-       <h1>Hello </h1>
+       <Congrats />
     </div>
   );
 }
