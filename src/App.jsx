@@ -1,8 +1,9 @@
 import Congrats from "./Congrats"
+
 function App() {
   return (
     <div className="App">
-       <Congrats />
+      <Congrats success={false}/>
     </div>
   );
 }
