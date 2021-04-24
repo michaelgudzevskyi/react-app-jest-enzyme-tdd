@@ -1,11 +1,9 @@
 /* eslint-disable react/forbid-foreign-prop-types */
-import Enzyme, { shallow } from 'enzyme'
-import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17'
-
+import { shallow } from 'enzyme'
 import { findByTestAttr, checkProp } from './test/testUtils'
 import Congrats  from './Congrats'
 
-Enzyme.configure({ adapter: new EnzymeAdapter() })
+
 
 const defaultProps = { success: false }
 
